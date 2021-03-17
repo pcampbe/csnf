@@ -1,6 +1,6 @@
 # CSNF Decorator MVP - README
 
-[TOC]
+[toc]
 
 
 
@@ -42,7 +42,7 @@ But for all the benefits of a multi-cloud strategy, there are some challenges th
 
 
 
-![CSNF-CSNF Flow Highlevel](./arch/img/CSNF-CSNF Flow Highlevel.png)
+![CSNF-CSNF Flow Highlevel](./arch/img/CSNF-CSNF-Flow-Highlevel.png)
 
 
 

@@ -35,7 +35,13 @@ But for all the benefits of a multi-cloud strategy, there are some challenges th
 
 
 
+**Today:** CSP's all provide semantically equivalent elements but elbow grease is required to get them into a common format suitable for downstream processing
 
+**Common Information Model:** We are asking CSP's to provide alerts using an open and common set of elements that eliminate ambiguity and allow frictionless processing of security alerts at scale for their customers
+
+**Decorator:** Alerts received through batch or stream processing are then decorated or 'enriched' providing additional context that speeds decision making, streamlines automation and allows security teams to operate at scale
+
+**Decorated Alert Consumption:** Decorated alerts are received and processed by the Cloud customer to answer questions and report on trends that are most important to them. Deep insights can be applied to identify anomalous activity, find indicators of compromise, or update risk scores across all CSP workloads
 
 
 
@@ -45,9 +51,19 @@ But for all the benefits of a multi-cloud strategy, there are some challenges th
 
 
 
+**What Is the Purpose of the CSNF Decorator?** In object-oriented programming, the **decorator pattern** is a design principle that allows behavior to be added to an object without defining an entirely new object. The CSNF decorator provides the CC with a mechanism to “decorate” or enrich security events by augmenting the original security event with additional contextual information to improve fidelity and increase the ability of security teams to identify and respond to security events.
 
+**A “decorator” has been defined to democratize CSP security notifications**
 
+1. Requirements have been documented (see figure below)
+2. Security events have been prioritized (Collaborative repo is [here](https://drive.google.com/drive/folders/1qh7l2CVcZQKKCack8smrFZd1l_Ft00yy?usp=sharing))
 
+**The  “decorator” is to provide a common set of definitions and syntax to:**
+
+1. Ease ingestion of CSP security notifications into security data lakes and other security plus observability tools
+2. Provide CSP's translational services to understand common security notifications between and across CSPs  
+3. Mappings of NIST controls and MITRE ATT&CK into a decorator are high priority to deliver cross CSP translational service
+4. Extended log information field attributes are to be accommodated to better understand context, e.g., each CSP to provide a log plus type set of meta field
 
 
 
@@ -57,13 +73,7 @@ But for all the benefits of a multi-cloud strategy, there are some challenges th
 
 
 
-
-
-
-
 ![](./arch/img/CSNF-Decorator-MVP.png)
-
-
 
 
 

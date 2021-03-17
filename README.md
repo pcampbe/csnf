@@ -1,6 +1,6 @@
 # 1. CSNF Decorator MVP - README
 
-<!-- TOC -->autoauto- [1. CSNF Decorator MVP - README](#1-csnf-decorator-mvp---readme)auto    - [1.1. CSNF Overview (borrowed from the one-pager)](#11-csnf-overview-borrowed-from-the-one-pager)auto    - [1.2. Multi-Cloud Security Pain Points](#12-multi-cloud-security-pain-points)auto    - [1.3. Multi-Cloud Security Events and the need for a Common Information Model](#13-multi-cloud-security-events-and-the-need-for-a-common-information-model)auto    - [1.4. CSNF Decorator - Design Concept](#14-csnf-decorator---design-concept)auto    - [1.5. CSNF Decorator - Implementation Concept](#15-csnf-decorator---implementation-concept)auto        - [1.5.1. ![CSNF-Decorator-Design](./arch/img/CSNF-Decorator-Design.png)](#151-csnf-decorator-designarchimgcsnf-decorator-designpng)autoauto<!-- /TOC -->
+
 
 
 ## 1.1. CSNF Overview (borrowed from the one-pager)
@@ -75,4 +75,4 @@ But for all the benefits of a multi-cloud strategy, there are some challenges th
 
 
 
-### 1.5.1. ![CSNF-Decorator-Design](./arch/img/CSNF-Decorator-Design.png)
+![](./arch/img/CSNF-Decorator-Design.png)

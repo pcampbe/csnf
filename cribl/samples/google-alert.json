@@ -1,7 +1,7 @@
 [{
     "finding": {
-      "name": "organizations/363380966558/sources/11577459057594297634/findings/05d3b1c97fe4b31a54532373258e44fe",
-      "parent": "organizations/363380966558/sources/11577459057594297634",
+      "name": "organizations/012345678912/sources/11577459057594297634/findings/05d3b1c97fe4b31a54532373258e44fe",
+      "parent": "organizations/012345678912/sources/11577459057594297634",
       "resourceName": "//compute.googleapis.com/projects/security-test-295714/global/firewalls/5179282600353345217",
       "state": "ACTIVE",
       "category": "OPEN_SSH_PORT",
@@ -19,10 +19,10 @@
         "ProjectId": "security-test-295714",
         "ScannerName": "FIREWALL_SCANNER",
         "Explanation": "Firewall rules that allow connections from all IP addresses on TCP port 22 or SCTP port 22 may expose SSH services to attackers.",
-        "ResourcePath": ["projects/security-test-295714/", "organizations/363380966558/"]
+        "ResourcePath": ["projects/security-test-295714/", "organizations/012345678912/"]
       },
       "securityMarks": {
-        "name": "organizations/363380966558/sources/11577459057594297634/findings/05d3b1c97fe4b31a54532373258e44fe/securityMarks"
+        "name": "organizations/012345678912/sources/11577459057594297634/findings/05d3b1c97fe4b31a54532373258e44fe/securityMarks"
       },
       "eventTime": "2020-11-27T23:48:00.354Z",
       "createTime": "2020-11-27T23:48:00.749Z",
@@ -92,8 +92,8 @@
     }
   },{
     "finding": {
-      "name": "organizations/363380966558/sources/11577459057594297634/findings/3f94d2752cc149fe25ebd6f982d2f80f",
-      "parent": "organizations/363380966558/sources/11577459057594297634",
+      "name": "organizations/012345678912/sources/11577459057594297634/findings/3f94d2752cc149fe25ebd6f982d2f80f",
+      "parent": "organizations/012345678912/sources/11577459057594297634",
       "resourceName": "//compute.googleapis.com/projects/security-test-295714/global/firewalls/2749727048202989249",
       "state": "ACTIVE",
       "category": "OPEN_RDP_PORT",
@@ -111,10 +111,10 @@
         "ProjectId": "security-test-295714",
         "ScannerName": "FIREWALL_SCANNER",
         "Explanation": "Firewall rules that allow connections from all IP addresses on TCP port 3389 or UDP port 3389 may expose RDP services to attackers.",
-        "ResourcePath": ["projects/security-test-295714/", "organizations/363380966558/"]
+        "ResourcePath": ["projects/security-test-295714/", "organizations/012345678912/"]
       },
       "securityMarks": {
-        "name": "organizations/363380966558/sources/11577459057594297634/findings/3f94d2752cc149fe25ebd6f982d2f80f/securityMarks"
+        "name": "organizations/012345678912/sources/11577459057594297634/findings/3f94d2752cc149fe25ebd6f982d2f80f/securityMarks"
       },
       "eventTime": "2020-11-27T23:48:00.006Z",
       "createTime": "2020-11-27T23:48:00.357Z",
@@ -184,9 +184,9 @@
     }
   },{
     "finding": {
-      "name": "organizations/363380966558/sources/11577459057594297634/findings/a833951fa3195ecc27231caaf9149515",
-      "parent": "organizations/363380966558/sources/11577459057594297634",
-      "resourceName": "//cloudresourcemanager.googleapis.com/organizations/363380966558",
+      "name": "organizations/012345678912/sources/11577459057594297634/findings/a833951fa3195ecc27231caaf9149515",
+      "parent": "organizations/012345678912/sources/11577459057594297634",
+      "resourceName": "//cloudresourcemanager.googleapis.com/organizations/012345678912",
       "state": "ACTIVE",
       "category": "2SV_NOT_ENFORCED",
       "externalUri": "https://admin.google.com/AdminHome#ServiceSettings/service\u003dsecuritysetting\u0026subtab\u003dorg",
@@ -204,10 +204,10 @@
         "SeverityLevel": "High",
         "ScannerName": "MFA_SCANNER",
         "Explanation": "2-Step Verification (2SV) is disabled for some users in your organization. 2SV can be used to protect accounts from unauthorized access and is the most important tool for protecting your organization against compromised login credentials. Learn more at: https://support.google.com/a/answer/175197",
-        "ResourcePath": ["organizations/363380966558/"]
+        "ResourcePath": ["organizations/012345678912/"]
       },
       "securityMarks": {
-        "name": "organizations/363380966558/sources/11577459057594297634/findings/a833951fa3195ecc27231caaf9149515/securityMarks"
+        "name": "organizations/012345678912/sources/11577459057594297634/findings/a833951fa3195ecc27231caaf9149515/securityMarks"
       },
       "eventTime": "2021-02-10T21:08:30.277Z",
       "createTime": "2020-11-13T03:04:20.419Z",
@@ -263,14 +263,14 @@
       "workflowState": "NEW"
     },
     "resource": {
-      "name": "//cloudresourcemanager.googleapis.com/organizations/363380966558",
+      "name": "//cloudresourcemanager.googleapis.com/organizations/012345678912",
       "type": "google.cloud.resourcemanager.Organization"
     }
   },{
     "finding": {
-      "name": "organizations/363380966558/sources/11577459057594297634/findings/bfb30ba7508c189c0a07b862d14d9b37",
-      "parent": "organizations/363380966558/sources/11577459057594297634",
-      "resourceName": "//cloudresourcemanager.googleapis.com/organizations/363380966558",
+      "name": "organizations/012345678912/sources/11577459057594297634/findings/bfb30ba7508c189c0a07b862d14d9b37",
+      "parent": "organizations/012345678912/sources/11577459057594297634",
+      "resourceName": "//cloudresourcemanager.googleapis.com/organizations/012345678912",
       "state": "ACTIVE",
       "category": "MFA_NOT_ENFORCED",
       "externalUri": "https://admin.google.com/AdminHome#ServiceSettings/service\u003dsecuritysetting\u0026subtab\u003dorg",
@@ -288,10 +288,10 @@
         "SeverityLevel": "High",
         "ScannerName": "MFA_SCANNER",
         "Explanation": "2-Step Verification (2SV) is disabled for some users in your organization. 2SV can be used to protect accounts from unauthorized access and is the most important tool for protecting your organization against compromised login credentials. Learn more at: https://support.google.com/a/answer/175197",
-        "ResourcePath": ["organizations/363380966558/"]
+        "ResourcePath": ["organizations/012345678912/"]
       },
       "securityMarks": {
-        "name": "organizations/363380966558/sources/11577459057594297634/findings/bfb30ba7508c189c0a07b862d14d9b37/securityMarks"
+        "name": "organizations/012345678912/sources/11577459057594297634/findings/bfb30ba7508c189c0a07b862d14d9b37/securityMarks"
       },
       "eventTime": "2021-02-10T21:08:30.277Z",
       "createTime": "2021-02-10T21:08:32.269Z",
@@ -347,7 +347,7 @@
       "workflowState": "NEW"
     },
     "resource": {
-      "name": "//cloudresourcemanager.googleapis.com/organizations/363380966558",
+      "name": "//cloudresourcemanager.googleapis.com/organizations/012345678912",
       "type": "google.cloud.resourcemanager.Organization"
     }
   }]

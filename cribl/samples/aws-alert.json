@@ -1,11 +1,11 @@
 [
     {
       "schemaVersion": "2.0",
-      "accountId": "144907493154",
+      "accountId": "012345678912",
       "region": "us-east-1",
       "partition": "aws",
       "id": "1cbb4fbbeb082e4be9b5038d952d25d0",
-      "arn": "arn:aws:guardduty:ap-southeast-1:144907493154:detector/EBD4bDCDaEEDCcdEFB95CF3cee86ED0c/finding/1cbb4fbbeb082e4be9b5038d952d25d0",
+      "arn": "arn:aws:guardduty:ap-southeast-1:012345678912:detector/EBD4bDCDaEEDCcdEFB95CF3cee86ED0c/finding/1cbb4fbbeb082e4be9b5038d952d25d0",
       "type": "PrivilegeEscalation:IAMUser/AdministrativePermissions",
       "resource": {
         "resourceType": "AccessKey",
@@ -45,7 +45,7 @@
               }
             },
             "affectedResources": {
-              "AWS::IAM::User": "arn:aws:iam::144907493154:user/testuser1"
+              "AWS::IAM::User": "arn:aws:iam::012345678912:user/testuser1"
             }
           }
         },
